@@ -1,0 +1,7 @@
+The python file can be run via eclipse.
+
+Creating the full installer is a multi step precess
+	1) Test in Eclipse
+	2) Run the compile batch file.  This creates IPAddressProducer\src\dist\IPAddressNotifier.exe.
+	3) Double click the IPAddressProducer\installer\IPAddressNotifier.ifp to bring up the install builder.
+	3) Click Build.  This creates IPAddressProducer\installer\IPAddressNotifierInstaller.exe.  This installer is standalone.
