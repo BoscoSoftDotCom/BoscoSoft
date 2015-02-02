@@ -50,7 +50,7 @@ def main (toEmailAddress):
             msg['From'] = toEmailAddress
             msg['To'] = toEmailAddress
             
-            smtpserver = smtplib.SMTP('internal-mail-router.oracle.com', 25)
+            smtpserver = smtplib.SMTP('', 25)
             smtpserver.ehlo()
             #smtpserver.starttls()
             smtpserver.ehlo
